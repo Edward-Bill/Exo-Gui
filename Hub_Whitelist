@@ -7,5 +7,6 @@ local admins = {
 544561252;
 429395525;
 527403364;
+1286123562; --Exec
 }
 return admins
