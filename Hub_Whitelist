@@ -9,6 +9,6 @@ local admins = {
 1286123562; --Exec
 782209994; -- mitya9996
 705392307; -- top4iiii
-587069550; -bogdanlox
+587069550; --bogdanlox
 }
 return admins
