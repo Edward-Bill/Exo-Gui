@@ -2667,6 +2667,12 @@ function DiscordLib:Window(text)
 						framesize = 58
 					elseif itemcount >= 3 then
 						framesize = 87
+					elseif itemcount == 4 then
+						framesize = 87 + 29
+					elseif itemcount == 5 then
+						framesize = 87 + 29 + 29
+					elseif itemcount >= 6 then
+						framesize = 87 + 29 + 29 + 29
 					end
 					
 					local Item = Instance.new("TextButton")
